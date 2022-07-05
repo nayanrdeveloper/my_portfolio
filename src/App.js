@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Intro from './components/Intro/Intro';
+import Navbar from './components/Navbar/Navbar';
+import Services from './components/Services/Services';
+import Cards from './components/Cards/Cards';
+
+
 
 function App() {
   return (
     <div className="App">
-      <p>Hello NAyan</p>
+     <Navbar />
+     <Intro />
+     <Services />
     </div>
   );
 }

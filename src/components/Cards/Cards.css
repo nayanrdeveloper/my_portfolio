@@ -1,0 +1,29 @@
+.card{
+    height: 13rem;
+    width: 9rem;
+    border: 7px solid var(--orangeCard);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(262deg, rgba(255,255,255,1) 0%, rgba(233,198,148,1) 100%);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+}
+
+.card > img{
+    height: 100px;
+    width: 100px;
+}
+
+.right-card{
+    position: relative;
+}
+
+.right-card>*{
+    position: absolute;
+}
+
