@@ -31,3 +31,11 @@
   color: var(--orange);
   border: 1px solid var(--orange);
 }
+
+.experince-card{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  
+
+}
